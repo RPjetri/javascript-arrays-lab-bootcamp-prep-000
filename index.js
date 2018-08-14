@@ -15,4 +15,4 @@ function destructivelyRemoveFirstKitten(name) {
   kittens.shift();
 }
 
-appendKitten(Oreo);
+appendKitten("broom");

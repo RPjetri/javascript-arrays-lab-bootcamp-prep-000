@@ -1,6 +1,6 @@
 // Add your functions and code here
 function destructivelyAppendKitten(name) {
-kittens.push(name);
+  kittens.push(name);
 }
 
 function destructivelyPrependKitten(name) {
@@ -19,4 +19,10 @@ function appendKitten(name) {
   var newArray = [...kittens];
   newArray.push(name);
   return newArray
+}
+
+function prependKitten(name) {
+  var newArray = [...kittens];
+  newArray.unshift(name);
+  return newArray;
 }
